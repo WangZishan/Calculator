@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="theme-color" content="#0f172a">
+</head>
+<body>
+  <main class="container">
+    <div class="calculator">
+      <input id="display" class="display" readonly placeholder="0" />
+      <div class="keys">
+        <button data-value="7">7</button>
+        <button data-value="8">8</button>
+        <button data-value="9">9</button>
+        <button data-value="/">÷</button>
+
+        <button data-value="4">4</button>
+        <button data-value="5">5</button>
+        <button data-value="6">6</button>
+        <button data-value="*">×</button>
+
+        <button data-value="1">1</button>
+        <button data-value="2">2</button>
+        <button data-value="3">3</button>
+        <button data-value="-">−</button>
+
+        <button data-value="0">0</button>
+        <button data-value=".">.</button>
+        <button data-value="(">(</button>
+        <button data-value=")">)</button>
+
+        <button id="pow" data-value="^">^</button>
+        <button id="mod" data-value="%">%</button>
+        <button id="back">⌫</button>
+        <button id="clear">C</button>
+      </div>
+      <div class="actions">
+        <button id="equals">=</button>
+      </div>
+    </div>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
